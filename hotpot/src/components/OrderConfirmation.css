@@ -1,0 +1,7 @@
+.confirmation-wrapper {
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+  font-family: 'Segoe UI', sans-serif;
+}
+.order-summary img {
+  border: 1px solid #ddd;
+}

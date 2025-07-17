@@ -1,0 +1,52 @@
+src/components/RestaurantDashboard.css
+
+/* .stat-card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-header h2 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header p {
+  font-size: 1rem;
+} */
+
+
+
+.dashboard-container {
+  font-family: 'Segoe UI', sans-serif;
+  backdrop-filter: blur(6px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.444);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 50px;
+  height: 45px;
+  border-radius: 60%;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+

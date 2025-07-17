@@ -1,0 +1,37 @@
+/* src/components/RestaurantSidebarLayout.css */
+
+.restaurant-layout {
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(180deg, #144572b2, #556f88b4);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  padding: 15px 12px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 193, 7, 0.15);
+  text-decoration: none;
+}
+
+.active-link .nav-link {
+  background-color: rgba(7, 185, 255, 0.25);
+  font-weight: bold;
+  color: #07daff !important;
+}
+
+.content-area {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  overflow-y: auto;
+}
